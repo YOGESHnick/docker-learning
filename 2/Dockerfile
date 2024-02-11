@@ -8,3 +8,4 @@ RUN npm install
 COPY . /app
 EXPOSE 80
 CMD ["node" , "server.js"]
+# docker run -p 3000:80 [id] 
